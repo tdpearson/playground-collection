@@ -1,0 +1,23 @@
+{ 
+    "title": "Playground Collection",
+    "url": "http://0.0.0.0:4000/playground-collection/",
+    "image": "", 
+    "description": "A demo digital collection built with CollectionBuilder-CSV.",
+    "publisher": { 
+        "name": "tdpearson", 
+        "url": "https://github.com/tdpearson", 
+        "logo": "" 
+    },
+    "date_start": "1910",
+    "date_end": "2014",
+    "objects": {
+        "image/jpeg": "2",
+        "application/pdf": "2",
+        "audio/mpeg": "1",
+        "video/mp4": "2"
+        
+    },
+    "data": "http://0.0.0.0:4000/playground-collection/assets/data/datapackage.json",
+    "last_build_date": "2026-04-08"
+}
+

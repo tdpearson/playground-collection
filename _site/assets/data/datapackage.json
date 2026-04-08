@@ -1,0 +1,140 @@
+{
+    "profile": "data-package",
+    "name": "playground-collection-data",
+    "title": "Playground Collection Data",
+    "description": "Metadata and data derived from Playground Collection. A demo digital collection built with CollectionBuilder-CSV.",
+    "keywords":  ["demo"," collectionbuilder"," digital collection"],
+    "homepage": "http://0.0.0.0:4000/playground-collection/",
+    "contributors": [
+        {
+            "title": "tdpearson",
+            "path": "https://github.com/tdpearson",
+            "role": "author"
+        }
+    ],
+    "image": "",
+    "licenses": [
+        {
+            "name": "CC0-1.0",
+            "title": "CC0 1.0",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    ],
+    "resources": [
+         
+        {
+            "name": "facets-json",
+            "path": "facets.json",
+            "title": "Playground Collection Metadata Facets",
+            "description":"Unique values and counts of metadata facet fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "subject-csv",
+            "path": "subjects.csv",
+            "title": "Playground Collection metadata subject counts in csv",
+            "description": "Unique values and counts of metadata subject fields.",
+            "format":"csv",
+            "profile":"tabular-data-resource",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subject",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "count",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "link",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "subjects-json",
+            "path": "subjects.json",
+            "title": "Playground Collection  metadata subject counts in json",
+            "description":"Unique values and counts of metadata subject fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "locations-csv",
+            "path": "subjects.csv",
+            "title": "Playground Collection metadata location counts in csv",
+            "description": "Unique values and counts of metadata location fields.",
+            "format":"csv",
+            "profile":"tabular-data-resource",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "count",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "link",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "locations-json",
+            "path": "locations.json",
+            "title": "Playground Collection metadata location counts in json",
+            "description":"Unique values and counts of metadata location fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "geodata-json",
+            "path": "geodata.json",
+            "title": "Playground Collection geographic metadata",
+            "description": "Geojson data containing all objects with lat-longs and associated descriptive metadata.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "timeline-json",
+            "path": "timelinejs.json",
+            "title": "Playground Collection timeline metadata",
+            "description": "Time-based metadata formatted for TimelineJS or other applications.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        {
+            "name": "metadata-csv",
+            "path": "metadata.csv",
+            "title": "Playground Collection full metadata in csv",
+            "description": "Complete metadata export for Playground Collection objects.",
+            "format":"csv",
+            "profile":"data-resource"
+        },
+        {
+            "name": "metadata-json",
+            "path": "metadata.json",
+            "title": "Playground Collection full metadata in json",
+            "description": "Complete metadata export for Playground Collection objects.",
+            "format":"json",
+            "profile":"data-resource"
+        }
+    ]
+}
