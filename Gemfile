@@ -2,9 +2,6 @@
 
 source 'https://rubygems.org'
 
-# GitHub Pages support
-gem "github-pages", "~> 232", group: :jekyll_plugins
-
 # needed for Jekyll
 gem 'jekyll'
 gem 'webrick'
