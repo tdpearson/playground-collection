@@ -21,11 +21,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@0ae1951b0898bb564f7f1b5d2e41b2d5e3c9c49b
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4'
           bundler-cache: true
-          cache-prefix: 'v1'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
